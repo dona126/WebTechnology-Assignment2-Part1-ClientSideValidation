@@ -74,7 +74,7 @@
       }
      else{
     
-        error4.innerHTML="Password format accepted: Minimum 8 characters, at least one uppercase, and one lower case, must contain at least one number.";
+        error4.innerHTML="Password format accepted: Minimum 8 characters, at least one uppercase and one lower case, at least one special character, must contain at least one number.";
         error4.style.color="red";
         return false;
     
