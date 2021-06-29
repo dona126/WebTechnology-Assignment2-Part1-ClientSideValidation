@@ -44,6 +44,8 @@
       
     }
   
+
+
     function mailValidation()
     {
       
@@ -63,6 +65,10 @@
          } 
       
     }
+
+
+
+
     function passwordValidation()
     {
     
@@ -81,6 +87,10 @@
          } 
       
     }
+
+
+
+
     function password2Validation(){
       if (regexpStrong.test(pwd.value)) 
           {
@@ -109,7 +119,10 @@
    }
  
 
-    function password3Validation(){
+
+
+    function password3Validation()
+    {
       if(pwd2.value==pwd.value )
       {
         error5.innerHTML="Password confirmed.";
@@ -124,6 +137,10 @@
          } 
       
     } 
+
+
+
+
 
   function checkBox()
   {

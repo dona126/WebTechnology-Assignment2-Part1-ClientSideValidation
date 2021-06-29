@@ -4,8 +4,10 @@ let username=document.getElementById("username");
 let error1=document.getElementById("error1");
 return usernameValidation(username,error1);
   
-  
 }
+
+
+
 
 function usernameValidation(username,error1)
 {
@@ -29,6 +31,9 @@ function usernameValidation(username,error1)
   
 }
 
+
+
+
 function pwdValidation(pwd,error2)
 {
   
@@ -46,14 +51,22 @@ function pwdValidation(pwd,error2)
     return loginFail();
 
      } 
-
-function login() {
-      alert("Log In successful!");
-    }
-  
-function loginFail() {
-     alert("Log In failed. Try again.");
-    }
-  
 }
+
+
+
+
+function login() 
+  {
+      alert("Log In successful!");
+  }
+
+
+
+function loginFail() 
+   {
+     alert("Log In failed. Incorrect password entered. Try again.");
+   }
+  
+
 
